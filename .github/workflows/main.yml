@@ -31,8 +31,8 @@ jobs:
           if [ $COMMIT_COUNT -lt $MAX_COMMIT ]; then
             set -o pipefail
             git config --global --add safe.directory /github/workspace
-            git config --local user.email "ariapratama.2002@gmail.com"
-            git config --local user.name "DaNgak"
+            git config --local user.email "ahmadnawfal2003@gmail.com"
+            git config --local user.name "ahmdnawfal"
             git config --global --add safe.directory /github/workspace
             git add -A
 
