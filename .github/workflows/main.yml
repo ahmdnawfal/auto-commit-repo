@@ -24,7 +24,7 @@ jobs:
           git config --local user.name "ahmdnawfal"
 
           MIN_LOOP=4
-          MAX_LOOP=10
+          MAX_LOOP=14
           LOOP=$(( RANDOM % (MAX_LOOP - MIN_LOOP + 1) + MIN_LOOP ))
           echo "Jumlah commit hari ini: $LOOP"
 
